@@ -47,10 +47,10 @@ Development setup
   - Default value is **0.0.0.0**
 - The TCP port for this service to bind/listen to
   - Environment Key is **SERVICE_PORT**
-  - Default value is **4000**
+  - Default value is **4001**
 - Route path for the service
   - Environment Key is **SERVICE_PATH**
-  - Default value is **/ws/public/time**
+  - Default value is **/ws/public/pairs**
 - Fastest interval between 2 ping originating from client, the client will get disconnected if too fast
   - Environment Key is **RAPID_REQUEST_LIMIT_MS**
   - Default value is **100**
