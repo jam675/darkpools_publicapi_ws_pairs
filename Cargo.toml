@@ -58,3 +58,4 @@ serde = { version = "*", features = ["derive"] }
 serde_json = "*"
 serde_repr = "*"
 lazy_static = "*"
+redis = "*"
