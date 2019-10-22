@@ -1,0 +1,10 @@
+# Rust default
+/target
+**/*.rs.bk
+**/*.lock
+
+# Visual Studio Code
+.vscode/
+
+# Any output files
+*.out

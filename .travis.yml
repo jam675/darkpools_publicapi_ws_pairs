@@ -1,0 +1,8 @@
+dist: bionic
+language: rust
+rust:
+  - stable
+script:
+  - ./dev-setup.sh
+  - ./run.sh lint
+  - ./run.sh test
