@@ -6,7 +6,7 @@ Copyright (C) 2019 Bitwyre Technologies LLC
 
 ## API Usages
 
-This websocket service doesn't have TLS enabled nor cross-origin checking, it is suppose to be handled by intermediary proxy.
+This websocket service doesn't have TLS enabled nor cross-origin checking, it is suppose to be handled by an intermediary proxy.
 
 Request & response example using [websocat](https://github.com/vi/websocat):
 

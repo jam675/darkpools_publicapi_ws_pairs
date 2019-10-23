@@ -23,7 +23,7 @@ lazy_static! {
             binding_url: CONFIG.service_baseurl.clone(),
             binding_path: CONFIG.service_path.clone(),
             max_clients: CONFIG.max_clients as usize,
-            rapid_request_interval: CONFIG.rapid_request_interval,
+            rapid_request_limit: CONFIG.rapid_request_limit,
             message_handler: Arc::new(&get_tradeable_asset_pairs),
         });
 }
